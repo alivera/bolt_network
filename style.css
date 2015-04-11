@@ -1,0 +1,160 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  width: 970px;
+}
+
+.supporting {
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+
+.main .container {
+    width: 70%;
+    padding-bottom: 90px;
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    top: -35px;
+    left: -15px;
+}
+
+.main ul {
+    list-style-type: none;
+    position: relative;
+    bottom: -50px;
+    left: 150;
+}
+
+.main li {
+    display: inline;
+    padding: 0 10;
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;    
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0393ff;
+}
+
+#button {
+    border: 1px solid #0393ff;
+    color: #0393ff;
+}
+
+#button:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.main2 {
+    padding-bottom: 80px;    
+}
+
+.main h1 {
+    color: white;
+    font-size: 55px;
+    padding-top: 90px;
+}
+
+.main  {
+    text-align: center;    
+}
+
+.main input {
+    background-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-right: 20px;
+    border-radius: 0;
+}
+
+.supporing {
+    width: 80%;    
+}
+
+.supporting .container {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.supporting h2 {
+    color: #0393ff;    
+}
+
+.supporting p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.supporting img {
+    float: left;
+    max-width: 99%;
+    padding: 5px;
+}
+
+.feature {
+   background: url("http://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg")center no-repeat; 
+   background-size: cover;
+}
+
+.feature .container {
+   width: 70%; 
+   text-align: center;
+   height: 310px;
+   padding: 100px;
+}
+
+.feature h1 {
+    color: #0393ff;    
+}
+
+.feature p {
+    color: white;    
+}
+
+
+.footer .container {
+    width: 90%; 
+    padding: 40px;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.footer h4 {
+    color: white;
+    display: inline; 
+}
+
+.footer li {
+    color: #0393ff;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
